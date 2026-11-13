@@ -13,13 +13,15 @@
   ],
   "verify": [
     "python3",
-    "checks.py",
-    "normal"
+    "analysis.py",
+    "verify",
+    "data/main",
+    "output"
   ],
   "demo": [
     "python3",
-    "source.py",
-    "data/tiny",
-    "data/tiny/schedule.json"
+    "analysis.py",
+    "demo",
+    "data/main"
   ]
 }
