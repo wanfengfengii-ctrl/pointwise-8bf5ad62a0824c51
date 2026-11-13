@@ -1,0 +1,1 @@
+{"target":3,"initial":[["a",1,10,10,false],["b",1,20,20,false],["c",1,30,30,false]],"transactions":[{"id":"u","window":[2,4],"after":[],"writes":[["a",2,40,11,false],["b",2,5,21,false]]}],"pages":[{"id":"p1","window":[1,1],"offset":0,"limit":2,"rows":[["a",1,10,10,false],["b",1,20,20,false]]},{"id":"p2","window":[5,5],"offset":2,"limit":2,"rows":[["a",2,40,11,false]]}]}

@@ -1,0 +1,1 @@
+{"target":3,"initial":[["a",1,10,10,false],["b",1,20,20,false],["c",1,30,30,false]],"transactions":[{"id":"u","window":[1,6],"after":[],"writes":[["a",2,40,11,false],["b",2,5,21,false]]}],"pages":[{"id":"p1","window":[2,3],"offset":0,"limit":1,"rows":[["b",2,5,21,false]]},{"id":"p2","window":[4,5],"offset":1,"limit":1,"rows":[["b",1,20,20,false]]}]}

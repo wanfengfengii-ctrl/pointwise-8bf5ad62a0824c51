@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    [
+      "python3",
+      "-m",
+      "pip",
+      "install",
+      "-r",
+      "requirements.txt"
+    ]
+  ],
+  "verify": [
+    "python3",
+    "checks.py",
+    "normal"
+  ],
+  "demo": [
+    "python3",
+    "source.py",
+    "data/tiny",
+    "data/tiny/schedule.json"
+  ]
+}
